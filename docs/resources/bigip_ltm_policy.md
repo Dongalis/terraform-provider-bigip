@@ -195,6 +195,7 @@ resource "bigip_ltm_policy" "test-policy" {
     * `expression`
     * `extension`
     * `facility`
+    * `flow`
     * `forward`
     * `from_profile`
     * `hash`

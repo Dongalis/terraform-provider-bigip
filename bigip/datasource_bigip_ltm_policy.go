@@ -220,6 +220,11 @@ func dataSourceBigipLtmPolicy() *schema.Resource {
 										Optional: true,
 										Computed: true,
 									},
+									"flow": {
+										Type:     schema.TypeBool,
+										Optional: true,
+										Computed: true,
+									},
 									"forward": {
 										Type:     schema.TypeBool,
 										Optional: true,

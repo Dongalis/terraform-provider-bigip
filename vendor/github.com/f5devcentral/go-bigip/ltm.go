@@ -836,6 +836,7 @@ type PolicyRuleAction struct {
 	Expression         string `json:"expression,omitempty"`
 	Extension          string `json:"extension,omitempty"`
 	Facility           string `json:"facility,omitempty"`
+	Flow               bool   `json:"flow,omitempty"`
 	Forward            bool   `json:"forward,omitempty"`
 	FromProfile        string `json:"fromProfile,omitempty"`
 	Hash               bool   `json:"hash,omitempty"`
